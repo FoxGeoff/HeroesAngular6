@@ -28,3 +28,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Check: Add Observable HeroService:
 Angular 6 syntax - ```import { Observable, of } from 'rxjs';```
+
+## Check: Show messages
+
