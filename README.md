@@ -42,3 +42,6 @@ Add an @NgModule.exports array with RouterModule in it. Exporting RouterModule m
 
 ## Check: Add routes and <router-outlet></router-outlet>
 
+## Check: Add a dashboard view
+* run ```ng generate component dashboard```
+
