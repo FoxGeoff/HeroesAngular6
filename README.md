@@ -34,3 +34,9 @@ Angular 6 syntax - ```import { Observable, of } from 'rxjs';```
 ## Check Add routing module
 Run ```ng generate module app-routing --flat --module=app```
 
+You generally don't declare components in a routing module so you can delete the @NgModule.declarations array and delete CommonModule references too.
+You'll configure the router with Routes in the RouterModule so import those two symbols from the @angular/router library.
+Add an @NgModule.exports array with RouterModule in it. Exporting RouterModule makes router directives available for use in the AppModule components that will need them.
+
+## Check Update routing module
+
