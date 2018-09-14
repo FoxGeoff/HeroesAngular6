@@ -31,3 +31,6 @@ Angular 6 syntax - ```import { Observable, of } from 'rxjs';```
 
 ## Check: Show messages
 
+## Check Add routing module
+Run ```ng generate module app-routing --flat --module=app```
+
