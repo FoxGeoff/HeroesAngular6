@@ -47,3 +47,5 @@ Add an @NgModule.exports array with RouterModule in it. Exporting RouterModule m
 
 ## Check: Add Routable HeroDetailComponent
 
+## Check: HTTP TBD
+
